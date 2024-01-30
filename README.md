@@ -25,15 +25,16 @@ Transactions are classified into 14 different categories, with only 9651 out of 
 [Credit Card Fraud Dataset on Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
 ### Columns available in Dataset
-    Timestamps: Both trans_date_trans_time and unix_time allowing for time-based pattern analysis.
 
-    Merchant Details: Includes the name of the merchant and geolocations (latitude & longitude).
+- Timestamps: Both trans_date_trans_time and unix_time allowing for time-based pattern analysis.
 
-    Transaction Details: Indicates the category of the purchased product and the amount of the transactions.
+- Merchant Details: Includes the name of the merchant and geolocations (latitude & longitude).
 
-    Credit Card Holder Information: Encompasses names, gender, dates of birth, addresses, geolocations and credit card numbers.
+- Transaction Details: Indicates the category of the purchased product and the amount of the transactions.
 
-    Fraud Indicator (is_fraud): 1 for fraudulent transactions, 0 for legitimate transactions.
+- Credit Card Holder Information: Encompasses names, gender, dates of birth, addresses, geolocations and credit card numbers.
+
+- Fraud Indicator (is_fraud): 1 for fraudulent transactions, 0 for legitimate transactions.
 
 ## Process
 ### Data Prep
