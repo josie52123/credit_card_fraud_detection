@@ -68,7 +68,8 @@ The negative R-squared values, unusual F-statistic, and the fact that many coeff
 ## Visualizations
 ![Alt text](EDA.png)
 ![Alt text](<EDA Heatmap Spearman.png>)
-
+![Alt text](<Fraud Transaction Categories.png>) ![Alt text](<JobTop Fraudulent IndividualGender.png>) ![Alt text](<Map - Fraud by CityState.png>) ![Alt text](<Map - Fraud transactions.png>) ![Alt text](<Merchant Top 15.png>) ![Alt text](<Time Pattern of Fraud.png>)
+![Alt text](<Individuals Info.png>)
 
 ## Conclusion
 
