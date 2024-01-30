@@ -64,8 +64,11 @@ The negative R-squared values, unusual F-statistic, and the fact that many coeff
 
 ## Results
 
-## Challenges 
+## Conclusion
 
+Fraudulent transactions exhibited a discernible pattern, predominantly occurring during specific periods, usually a few hours before and after midnight (11PM to 12 AM). 
 
-## Future Goals
+These fraudulent transactions were distinguished by fairly lower spending amounts. 
+
+While many other transaction patterns mirrored those of legitimate transactions, the scarcity of fraudulent instances in the dataset (i.e., an imbalanced dataset) prevents us from creating a regression model that could offer valuable insights.
 
