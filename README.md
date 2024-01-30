@@ -37,11 +37,30 @@ Transactions are classified into 14 different categories, with only 9651 out of 
 - Fraud Indicator (is_fraud): 1 for fraudulent transactions, 0 for legitimate transactions.
 
 ## Process
-### Data Prep
+### Data Prep Section
 
 1. Imported two CSV files and check for columns name and see if two data file can be merged together.
 2. Upon checking the columns name and type matches, proceed with merge two data file into one dataframe.
 3. Delete index column and export to CSV file for further processing.
+
+### EDA
+
+1. Check for null value and duplicate values
+2. Calculate the number of total transactions and percentage of fraudulent vs legitimate transactions
+3. Removing meaningless columns e.g. Index and Trans_num columns.
+4. Update column data types and trim the columns that have prefix which can be removed.
+5. Create new column to get full name of credit card holder
+6. Rearrange the dataframe and export the dataframe to CSV file for further use.
+
+### Regression Model
+
+Initially created regression model based on the available dataset.
+
+The negative R-squared values and unusual F-statistic might indicate issues with the model, we can tell that it might because of imbalance of dataset.
+
+The steps we took next is to resample with sample size 10000 with 50% fraudulent activities and 50% non-fraud activities.
+
+The negative R-squared values, unusual F-statistic, and the fact that many coefficients are very close to zero with high p-values suggest that the model and the individual coefficients are not statistically significant. 
 
 ## Results
 
