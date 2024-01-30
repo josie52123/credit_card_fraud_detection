@@ -50,7 +50,8 @@ Transactions are classified into 14 different categories, with only 9651 out of 
 3. Removing meaningless columns e.g. Index and Trans_num columns.
 4. Update column data types and trim the columns that have prefix which can be removed.
 5. Create new column to get full name of credit card holder
-6. Rearrange the dataframe and export the dataframe to CSV file for further use.
+6. Create heatmap and correlation matrix based on available dataset.
+7. Rearrange the dataframe and export the dataframe to CSV file for further use.
 
 ### Regression Model
 
