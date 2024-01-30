@@ -63,7 +63,12 @@ The steps we took next is to resample with sample size 10000 with 50% fraudulent
 
 The negative R-squared values, unusual F-statistic, and the fact that many coefficients are very close to zero with high p-values suggest that the model and the individual coefficients are not statistically significant. 
 
-## Results
+## Analysis
+
+## Visualizations
+![Alt text](EDA.png)
+![Alt text](<EDA Heatmap Spearman.png>)
+
 
 ## Conclusion
 
