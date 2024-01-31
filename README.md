@@ -89,7 +89,7 @@ The negative R-squared values, unusual F-statistic, and the fact that many coeff
 
 ## Conclusion
 
-Fraudulent transactions exhibited a discernible pattern, predominantly occurring during specific periods, usually a few hours before and after midnight (11PM to 12 AM). 
+Fraudulent transactions exhibited a discernible pattern, predominantly occurring during specific periods, usually a few hours before and after midnight (Peak:11PM to 12 AM). 
 
 These fraudulent transactions were distinguished by fairly lower spending amounts. 
 
