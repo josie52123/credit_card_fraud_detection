@@ -22,6 +22,7 @@ This dataset simulates credit card transactions, encompassing both legitimate an
 Transactions are classified into 14 different categories, with only 9651 out of the 1.85 million transactions (0.52%) were identified as fraudulent.
 
 ### Dataset Link
+
 [Credit Card Fraud Dataset on Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
 ### Columns available in Dataset
@@ -65,8 +66,20 @@ The negative R-squared values, unusual F-statistic, and the fact that many coeff
 
 ## Analysis
 - Is there a noticeable time pattern for fraudulent activities?
+    - Observed majority of fraudulent transactions happen between 22PM to 3AM.
+    - On Monthly basis, March and May are months compare to other months.
+    - Saturday, Sunday and Monday are having more fraudulent activties.
+    - 11th, 12th and 20th are most likely to have more fraudulent activities compare to other day of the month.
+
 - Is there any geographic pattern that requires attention?
+    - NY PA TX are three states with the highest amount of transaction number and hightest fraudulent transaction amount.
+    - While reviewing fraudulent activities by cities, we can see that east coast cities have higher amount of fraudulent activities compare to west coast cities.
+    - Houston, San Antonio and Naples are the three cities with highest fraudulent activties.
+
 - Are any other patterns related to fraudulent activities?
+    - The dataset is imbalanced with majority of the dataset are legitimate transactions.
+    - it worth to mention that there are people with same name which impact the result of analysis that we can see that top 3 names that have highest fraudulent transactions actually represents 6 people in different cities.
+
 
 ## Visualizations
 ![Alt text](EDA.png)
